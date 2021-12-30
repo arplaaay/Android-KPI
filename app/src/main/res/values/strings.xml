@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array fontsize = "14" name="bebra_arr">
+        <item>Python</item>
+        <item>JavaScript</item>
+        <item>Java</item>
+    </string-array>
+</resources>
