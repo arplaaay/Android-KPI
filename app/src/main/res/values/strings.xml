@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string-array fontsize = "14" name="bebra_arr">
-        <item>Python</item>
-        <item>JavaScript</item>
+    <string-array name="lang_array" fontsize="14">
         <item>Java</item>
+        <item>Python</item>
+        <item>Kotlin</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
