@@ -3,19 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/artem/Desktop/lab3/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1859375" />
-        <entry key="..\:/Users/artem/Desktop/lab3/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.2916666666666667" />
-        <entry key="..\:/Users/artem/Desktop/lab3/MyApplication/app/src/main/res/layout/activity_storage.xml" value="0.2916666666666667" />
-        <entry key="..\:/Users/artem/Desktop/lab3/MyApplication/app/src/main/res/layout/fragment_input_lang.xml" value="0.2916666666666667" />
-        <entry key="..\:/Users/artem/Desktop/lab3/MyApplication/app/src/main/res/layout/fragment_output_result.xml" value="0.2916666666666667" />
-        <entry key="..\:/Users/artem/Desktop/lab3/MyApplication/app/src/main/res/layout/fragment_storage.xml" value="0.2916666666666667" />
-        <entry key="..\:/Users/artem/Desktop/lab3/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1859375" />
-        <entry key="..\:/labs android/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/labs android/android/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/labs android/android/MyApplication/app/src/main/res/layout/activity_storage.xml" value="0.1" />
-        <entry key="..\:/labs android/android/MyApplication/app/src/main/res/layout/fragment_input_lang.xml" value="0.264" />
-        <entry key="..\:/labs android/android/MyApplication/app/src/main/res/layout/fragment_output_result.xml" value="0.16168478260869565" />
-        <entry key="..\:/labs android/android/MyApplication/app/src/main/res/layout/fragment_storage.xml" value="0.4" />
+        <entry key="..\:/Users/artem/Desktop/lab4/app/src/main/res/layout/activity_sound.xml" value="0.5041666666666667" />
+        <entry key="..\:/Users/artem/Desktop/lab4/app/src/main/res/layout/activity_video.xml" value="0.5041666666666667" />
+        <entry key="..\:/Users/artem/Downloads/lab4/app/src/main/res/layout/activity_main.xml" value="0.4316123188405797" />
+        <entry key="..\:/Users/artem/Downloads/lab4/app/src/main/res/layout/activity_sound.xml" value="0.5041666666666667" />
+        <entry key="..\:/Users/artem/Downloads/lab4/app/src/main/res/layout/activity_video.xml" value="0.5041666666666667" />
       </map>
     </option>
   </component>
