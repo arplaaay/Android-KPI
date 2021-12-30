@@ -12,23 +12,34 @@ import java.lang.ClassCastException
 class InputLangFragment : Fragment() {
 
     private lateinit var onLangSentListener: OnLangSent
+    private lateinit var onShowStorageListener: ShowStorage
 
     interface OnLangSent {
         fun sendData(
             text: String
         )
     }
+
+    interface ShowStorage {
+        fun show()
+    }
+
     override fun onAttach(context: Context) {
         super.onAttach(context)
 
         try {
             onLangSentListener = context as OnLangSent
+            onShowStorageListener = context as ShowStorage
         } catch (e: ClassCastException) {
             throw ClassCastException(
                 activity.toString()
                         + " must implement onLangSent"
             )
         }
+    }
+
+    private fun showStorage() {
+        onShowStorageListener.show()
     }
 
     private fun passData(
@@ -53,6 +64,7 @@ class InputLangFragment : Fragment() {
         val spinner: Spinner = view?.findViewById(R.id.langSpinner) as Spinner
         val okButton: Button = view?.findViewById(R.id.okButton) as Button
         val cancelButton: Button = view?.findViewById(R.id.cancelButton) as Button
+        val showStorageButton: Button = view?.findViewById(R.id.showButton) as Button
 
         this.context?.let {
             ArrayAdapter.createFromResource(
@@ -70,12 +82,16 @@ class InputLangFragment : Fragment() {
             passData(
                 text
             )
+            showStorage()
         }
         cancelButton.setOnClickListener {
             val text = ""
             passData(
                 text
             )
+            showStorage()
         }
-        }
+
+        showStorageButton.setOnClickListener { showStorage() }
     }
+}
